@@ -22,11 +22,13 @@ Import this file to the Keycloak. Access the Keycloak, in the left bar, click in
 
 A observation: In the file Gerrit_on_docker_SAML_keycloak, change the information about de gerrit_ip for the ip of your Gerrit server. 
 
-We'll need to create a user that will to authenticate on Gerrit aplication, for this on Keycloak, in the left bar, click in USERS, after Add User.
+We'll need to create a user that will to authenticate on Gerrit aplication, for this on Keycloak, in the left bar, click in `USERS`, after `Add User`.
 
-In the GENERAL fild, fill the username, in this case a I will user the username "jdoe"
-Fill the fild email, I'll put "john.doe@org.com".
-In the First name, I'll user John and  in the Last Name, a I'll fill with "Doe".
+In the GENERAL fild, fill the username, in this case a I will user the username `jdoe`.
+
+Fill the fild email, I'll put `john.doe@org.com`.
+
+In the First name, I'll user `John` and  in the Last Name, a I'll fill with `Doe`.
 
 After create the user, We'll need to add the passoword to it.
 Return the Option USERS, and click on the user that you created.
@@ -36,5 +38,6 @@ Now, We'll to configurarem a Gerrit on docker in the other VM.
 
 ### VM Gerrit.
 On the  VM with the docker installed, We'll use the docker-compose file to create a Gerrit container.
-
-
+You can to get the docker-compose file in this link: https://github.com/ThiagoCits/Gerrit_on_docker_SAML_Kecloak/blob/main/docker-compose.yml
+##### Observation: 
+In this code, you don't forget the  
