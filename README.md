@@ -10,7 +10,7 @@ How to make this  enviornment test, I deployed the Keycoak in dev mode.
 
 `docker run -p 8080:8080 -e KEYCLOAK_ADMIN=admin -e KEYCLOAK_ADMIN_PASSWORD=admin quay.io/keycloak/keycloak:25.0.4 start-dev`.
 
-Access the Keycloak with the credentials that are configured in the command above, in this case, user= Admin and the password= Admin.
+Access the Keycloak with the credentials that are configured in the command above, in this case, user= admin and the password= admin.
 
 Select the Realm, in the left bar, click on bar top and select the realm you use for to authenticate the gerrit. I'll use the Master Realm. 
 
