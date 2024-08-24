@@ -4,7 +4,7 @@ Documentation when explan as configure a gerrit run on docker and this making SA
 ## Envorioment
 In this envoriorment we'll have 2 VMs, both with docker installed. 
 
-How to this a enviornment test, I deployed the Keycoak in dev mode. 
+How make this  enviornment test, I deployed the Keycoak in dev mode. 
 
 ### VM Keycloak 
 
