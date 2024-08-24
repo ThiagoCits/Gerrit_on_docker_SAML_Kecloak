@@ -12,7 +12,7 @@ How to make this  enviornment test, I deployed the Keycoak in dev mode.
 
 Access the Keycloak with the credentials that are configured in the command above, in this case, user= admin and the password= admin.
 
-Select the Realm, in the left bar, click on bar top and select the realm you use for to authenticate the gerrit. I'll use the Master Realm. 
+Select the Realm, in the left bar, click on bar top and select the realm you use to authenticate the gerrit. I'll use the Master Realm. 
 
 We'll need to import a realm with the REALM configuration.
 
